@@ -47,6 +47,7 @@
                 android:layout_height="wrap_content"/>
 
             <Button
+                android:id="@+id/btn_laliga"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Click"
@@ -132,8 +133,8 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="10dp"
                 android:src="@drawable/trophee"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/europa_Tv"
